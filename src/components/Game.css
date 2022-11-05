@@ -1,0 +1,59 @@
+#btn-back {
+  position: fixed;
+  left: 100px;
+  bottom: 40px;
+  width: 15%;
+  color: white;
+  background-color: blue;
+  padding: 10px;
+  margin: 0;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+}
+#btn-next {
+  position: fixed;
+  right: 100px;
+  bottom: 40px;
+  width: 15%;
+  color: white;
+  background-color: blue;
+  padding: 10px;
+  margin: 0;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+}
+#btn-next:hover,
+#btn-back:hover {
+  background-color: rgba(0, 0, 255, 0.295);
+}
+#skip {
+  text-decoration: none;
+  color: black;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+#skip:hover {
+  color: rgba(0, 0, 0, 0.395);
+}
+
+#img {
+  background-image: url(./MentalHealth.jpg);
+  width: 1200px;
+  height: 450px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+#play-btn {
+  width: 70px;
+  position: fixed;
+  top: 47%;
+  left: 47%;
+  padding: 10px;
+  background-color: pink;
+  color: white;
+  border: none;
+  cursor: wait;
+}

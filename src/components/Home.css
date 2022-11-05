@@ -1,0 +1,66 @@
+.nav {
+    width: 99%;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: black;
+    position: fixed;
+    border-bottom: 1px solid black;
+  }
+  .nav h1 {
+    font-size: 20px;
+  }
+  #link {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+  }
+  #link:hover {
+    color: rgba(0, 0, 0, 0.395);
+  }
+  .main {
+    padding-top: 50px;
+    text-align: center;
+  }
+  .main #p1 {
+    font-weight: bold;
+    font-size: 40px;
+    padding: 20px;
+  }
+  .main #p2 {
+    color: #532C59;
+    font-size: 18px;
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+  }
+  #btn-log {
+    background-color: #532C59;
+    color: white;
+    margin: 10px;
+    padding: 3px;
+    width: 113px;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+  }
+  #btn-log:hover {
+    background-color: #532c5976;
+  }
+  #btn-reg {
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 3px;
+    width: 113px;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+  }
+  #btn-reg:hover {
+    background-color: rgba(0, 0, 0, 0.395);
+  }

@@ -1,0 +1,55 @@
+.head {
+  margin: 0;
+  padding: 50px;
+}
+
+#btn {
+  color: black;
+  padding: 5px;
+  border-radius: 7px;
+  border: none;
+  font-size: 16px;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  width: 160px;
+  height: 60px;
+}
+#btn-back {
+  position: fixed;
+  left: 100px;
+  bottom: 100px;
+  width: 15%;
+  color: white;
+  background-color: blue;
+  padding: 10px;
+  margin: 0;
+  border-radius: 7px;
+  border: none;
+}
+#btn-next {
+  position: fixed;
+  right: 100px;
+  bottom: 100px;
+  width: 15%;
+  color: white;
+  background-color: blue;
+  padding: 10px;
+  margin: 0;
+  border-radius: 7px;
+  border: none;
+}
+#btn-next:hover,
+#btn-back:hover {
+  background-color: rgba(0, 0, 255, 0.295);
+}
+#skip {
+  text-decoration: none;
+  color: black;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+#skip :hover {
+  color: rgba(0, 0, 0, 0.395);
+}
