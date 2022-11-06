@@ -14,7 +14,7 @@ In this project directory, you find the source code for the prototype of the web
 
 ## Youtube link
 
-PhatigueD [https://youtu.be/qJbP60dlH6c]
+PhatigueD [https://www.youtube.com/watch?v=qJBP60dIH6c]
 
 ### `npm start`
 
