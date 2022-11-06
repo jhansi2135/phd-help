@@ -1,10 +1,16 @@
-# Getting Started with Create React App
+# PhatigueD? Application to aid the mental health of PhD students
+
+This prototype was created during the Junction2022 hackathon by Humera Banoo, Garipally Jhansi, Fengyu Li, Alaa Eddine Somate and Anja Hartewig. 
+
+## Background
+PhD students have a six times higher risk of developing mental health problems compared to the general population (Hefner and Eisenberg, 2009). More than 40% show signs of depression or anxiety. Many do not seek help since mental disorders are almost advertised as a badge of honor.
+Our application seeks to create a safe space for the students to discuss with peers or persons with a completed PhD in a completely anonymous way, ensuring that even difficult topics such as supervision can be brought up without fear of consequences. This is achieved by only gathering absolutely necessary information. To ensure that a suitable conversation partner can be found, the user can specify the broad topic he or she wants to talk about or select their field of study to discuss field-specific issues. The mental health of the user will be assessed using a sandbox building game that can be retaken to track progress. The conversation among the users can take place in a voice or text-based format. After the conversation the user will be asked to provide feedback on the helpfulness.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Available Code
 
-In the project directory, you can run:
+In this project directory, you find the source code for the prototype of the website.
 
 ### `npm start`
 
