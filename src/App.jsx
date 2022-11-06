@@ -5,6 +5,7 @@ import { Fill } from "./components/Fill.jsx";
 import { Talk } from "./components/Talk.jsx";
 import { Game } from "./components/Game.jsx";
 import { Login } from "./components/Login.jsx";
+import { Last } from "./components/Last.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="talk" element={<Talk />} />
           <Route path="home" element={<Home />} />
           <Route path="game" element={<Game />} />
+          <Route path="last" element={<Last />} />
         </Route>
       </Routes>
     </BrowserRouter>

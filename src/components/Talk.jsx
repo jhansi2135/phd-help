@@ -72,9 +72,11 @@ export function Talk() {
           Back
         </button>
       </Link>
-      <button id="btn-next" type="button">
-        Next
-      </button>
+      <Link to="/last">
+        <button id="btn-next" type="button">
+          Next
+        </button>
+      </Link>
       <Link to="/register">
         <b id="skip">Skip</b>
       </Link>
