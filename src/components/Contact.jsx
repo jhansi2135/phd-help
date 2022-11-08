@@ -7,7 +7,7 @@ export function Contact() {
     from_name: "",
     from_email: "",
     message: "",
-    reply_to: "humerabanoo987@gmail.com",
+    reply_to: " ",
   });
 
   const handleChange = (e) => {
@@ -44,13 +44,7 @@ export function Contact() {
         <div className="btn">
           <label htmlFor="message">Message</label>
           <br />
-          {/* <input
-            type="text"
-            name="message"
-            value={toSend.message}
-            onChange={handleChange}
-            required
-          /> */}
+
           <textarea
             id="message"
             name="message"
