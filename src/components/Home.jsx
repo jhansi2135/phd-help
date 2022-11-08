@@ -10,7 +10,7 @@ export function Home() {
             PhatigueD?
           </Link>
         </h1>
-        <Link id="link" to="/Contact">
+        <Link id="link" to="/contact">
           Contact
         </Link>
       </nav>
