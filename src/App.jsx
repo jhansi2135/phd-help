@@ -6,6 +6,7 @@ import { Talk } from "./components/Talk.jsx";
 import { Game } from "./components/Game.jsx";
 import { Login } from "./components/Login.jsx";
 import { Last } from "./components/Last.jsx";
+import { Contact } from "./components/Contact.jsx";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route>
           <Route index element={<Home />} />
+          <Route path="contact" element={<Contact />} />
           <Route path="login" element={<Login />} />
           <Route path="register" element={<Register />} />
           <Route path="fill" element={<Fill />} />

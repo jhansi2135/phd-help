@@ -1,0 +1,25 @@
+.contact {
+  padding: 80px;
+  text-align: center;
+}
+.contact label {
+  font-weight: bold;
+  padding: 5px;
+}
+.contact textarea {
+  margin: 10px;
+  padding: 5px;
+  width: 500px;
+  height: 200px;
+}
+.contact #btn {
+  margin: 30px;
+}
+.contact #email {
+  border: 1px solid black;
+  width: 485px;
+}
+.contact #fromname {
+  border: 1px solid black;
+  width: 485px;
+}
